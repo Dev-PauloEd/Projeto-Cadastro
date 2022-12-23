@@ -1,0 +1,23 @@
+body {
+    background-color: lightblue;
+    color: white;
+    padding-top: 200px;
+}
+
+#main {
+    background-color: rgb(143, 168, 190);
+    margin: auto;
+    border: 1px solid;
+    border-radius: 30px;
+    max-height: 700px;
+    max-width: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#text01 {
+    text-align: center;
+}
+
+.input {
+    width: 250px;
+}

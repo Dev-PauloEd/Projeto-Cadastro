@@ -2,21 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div name="main-card">
-        <div name="title"></div>
-        <div name="sing-up-area">
-            <input type="text"><br>
-            <input type="text">
-            <button>submit</button>
-        </div>
-
+    <div id="main" name="main-card">
+        <form action="https://autoria-form.herokuapp.com/" method="get">
+            <div id="text01" name="title"><h1>LOGIN</h1></div>
+            <div id="text01" name="sing-up-area">
+                <input class="input" id="email" type="text" placeholder="e-mail ou usuário"><br>
+                <input class="input" id="password" type="text" placeholder="senha"><br>
+                <input class="input" id="password-confirm" type="text" placeholder="confirmar senha"><br>
+                <input class="button" type="submit" value="submit">
+            </div>
+        </form>
     </div>
+    <p>OBS: AINDA NÃO ESTÁ FUNCIONAL.</p>
     
 </body>
 </html>
