@@ -2,25 +2,39 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Login page - Entre ou cadastre - se</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro page - cadastre-se</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-    <h1>Login page - Entre ou cadastre-se</h1>
-</header>
-    <div id="main" name="main-card">
-        <form action="https://autoria-form.herokuapp.com/" method="get">
-            <div id="text01" name="title"><h1>LOGIN</h1></div>
-            <div id="text01" name="sing-up-area">
-                <input class="input" type="text" placeholder="   e-mail ou usuário"><br><br>
-                <input class="input" id="input" type="text" placeholder="   senha"><br><br>
-                <input class="input" id="input" type="text" placeholder="   confirmar senha"><br><br>
-                <input class="button" type="submit" value="submit"><br><br>
-            </div>
-        </form>
+
+    <header>
+        <h1>Cadastro page - cadastre-se</h1>
+    </header>
+
+    <div id="space"></div>
+
+    <div id="main">
+        <div id="text01">
+            <h1>CADASTRO</h1>
+
+            <input class="input" type="text" placeholder="   nome completo"><br><br>
+
+            <input class="input" type="text" placeholder="   nome de usuário"><br><br>
+
+            <input class="input" type="text" placeholder="   e-mail"><br><br>
+
+            <input class="input" type="password" placeholder="   senha"><br><br>
+            
+            <p class="texto-acima" id="left">data de nascimento</p>
+            <input class="input" type="date"><br><br>
+
+           
+
+        </div>
+        <a href="#" id="button-position"><button class="button" onclick="cadastro()">cadastrar-se</button></a><br><br>
     </div>
-    <p>OBS: AINDA NÃO ESTÁ FUNCIONAL.</p>
     
 </body>
 </html>

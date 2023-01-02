@@ -5,7 +5,30 @@ body {
 }
 
 header {
+    margin-top: -21px;
+    margin-right: -8px;
+    margin-left: -8px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 3px;
     background-color: rgb(143, 168, 190);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#a {
+    padding-left: 30px;
+}
+
+.p {
+    padding-top: 5px;
+}
+
+#space {
+    padding-top: 100px;
 }
 
 #main {
@@ -29,9 +52,32 @@ header {
     border: hidden;
 }
 
+#input {
+    width: 400px;
+}
+
 .button {
     height: 30px;
-    width: 70px;
+    width: 80px;
     border-radius: 27px;
     border: hidden;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+#button-position {
+    padding-left: 296px;
+}
+
+#align {
+    padding-left: 85px;
+
+}
+
+#left {
+    padding-right: 115px;
+}
+
+.texto-acima {
+    margin: 2px;
 }
