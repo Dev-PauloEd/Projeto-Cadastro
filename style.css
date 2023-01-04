@@ -66,7 +66,7 @@ a {
 }
 
 #button-position {
-    padding-left: 296px;
+    margin-left: 210px;
 }
 
 #align {
@@ -81,3 +81,9 @@ a {
 .texto-acima {
     margin: 2px;
 }
+
+#cadastro-page {
+    margin-left: 230px;
+}
+
+/* Da próxima vez, vou utilizar apenas classes para css e os "id"s vou deixar para o javascript */

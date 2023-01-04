@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Cadastro page - cadastre-se</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <header>
@@ -19,22 +21,30 @@
         <div id="text01">
             <h1>CADASTRO</h1>
 
-            <input class="input" type="text" placeholder="   nome completo"><br><br>
+            <input class="input" id="nome" type="text" placeholder="   nome completo"><br><br>
 
-            <input class="input" type="text" placeholder="   nome de usuário"><br><br>
+            <input class="input" id="username" type="text" placeholder="   nome de usuário"><br><br>
 
-            <input class="input" type="text" placeholder="   e-mail"><br><br>
+            <input class="input" id="email" type="text" placeholder="   e-mail"><br><br>
 
-            <input class="input" type="password" placeholder="   senha"><br><br>
-            
+            <input class="input" id="senha" type="password" placeholder="   senha"><br><br>
+            <input class="input" id="confirm-password" type="password" placeholder="   confirmar senha">
+
             <p class="texto-acima" id="left">data de nascimento</p>
-            <input class="input" type="date"><br><br>
+            <input id="data" class="input" type="date"><br><br>
 
-           
+
 
         </div>
-        <a href="#" id="button-position"><button class="button" onclick="cadastro()">cadastrar-se</button></a><br><br>
+
+        <button id="button-position" class="button" onclick="cadastro()">cadastrar-se</button><br><br>
+        <a href="Login-Page.HTML" id="a">Já posssui uma conta? Faça login</a>
     </div>
-    
+
+    <p>OBS: ESTÁ MAIS OU MENOS FUNCIONAL</p>
+
+
+    <script src="script.js"></script>
 </body>
+
 </html>
